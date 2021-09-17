@@ -386,12 +386,7 @@ body {
   margin-bottom: 2.4rem;
   color: #555;
   line-height: 1.6;
-  position: relative;
 }
 
 .btn--about {
-  right: 0%;
-  position: absolute;
-  right: 20%;
-  justify-items: right;
 }
