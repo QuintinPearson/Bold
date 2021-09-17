@@ -177,7 +177,7 @@ body {
   padding: 1.2rem;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
-    url(/img/hero.webp);
+    url(img/hero.webp);
   background-size: cover;
 
   outline: 0.3rem solid #f37566;
@@ -284,15 +284,15 @@ body {
 
 .services-img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/services-1.webp);
+    url(img/services-1.webp);
 }
 .services-img-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/services-2.webp);
+    url(img/services-2.webp);
 }
 .services-img-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/services-3.webp);
+    url(img/services-3.webp);
 }
 
 .services-img {
