@@ -325,3 +325,73 @@ body {
   padding: 3px 6px;
   right: 0;
 }
+
+/**************************/
+/* Client Review Section  */
+/**************************/
+
+.section-clients {
+  max-width: 120rem;
+  margin: 0 auto;
+
+  padding-top: 1.2rem;
+  border-top: 2px solid #f37566;
+}
+
+.review-item {
+  background-color: #fde3e0;
+  padding: 2.4rem;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.11);
+}
+
+.client-name {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.review-item img {
+  border-radius: 50%;
+}
+
+.client-box {
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.review {
+  color: #666;
+}
+
+.review-box {
+  margin-bottom: 6.4rem;
+}
+
+.about-container {
+  justify-items: center;
+}
+
+.about-heading {
+  font-size: 3.6rem;
+  font-weight: 300;
+  font-family: "Italianno", serif;
+  margin-bottom: 1.6rem;
+}
+
+.about-text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+  color: #555;
+  line-height: 1.6;
+  position: relative;
+}
+
+.btn--about {
+  right: 0%;
+  position: absolute;
+  right: 20%;
+  justify-items: right;
+}
