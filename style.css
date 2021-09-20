@@ -475,6 +475,12 @@ hr {
   justify-content: center; */
 }
 
+.footer-nav-link {
+  text-decoration: none;
+  font-size: 3.2rem;
+  color: #f37566;
+}
+
 .footer-nav-list li {
   margin-bottom: 6.8rem;
 }
