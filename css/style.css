@@ -51,6 +51,8 @@ Large: 1. 8
 html {
   /* font-size: 10px; */
   font-size: 62.5%;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 body {
@@ -70,6 +72,7 @@ hr {
 /**************************/
 
 .container {
+  width: 100%;
   max-width: 120rem;
   padding: 0 3.2rem;
 
@@ -121,6 +124,24 @@ hr {
   align-items: center;
 }
 
+.btn {
+  font-size: 2.4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  padding: 0 5rem;
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  background-color: #f37566;
+  box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+  transform: translate(0px, -2px);
+  transition: 0.3s;
+}
+
 *:focus {
   outline: none;
   /* outline: 4px solid #fde3e0;
@@ -142,7 +163,7 @@ hr {
   margin-bottom: 9.6rem;
   height: 9.6rem;
   padding: 0 4.8rem;
-  position: relative;
+  /* position: relative; */
 }
 
 .logo {
@@ -178,6 +199,12 @@ hr {
   color: #f37566;
 }
 
+.social-nav-img:link,
+.social-nav-img:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
 /**************************/
 /* Hero Section  */
 /**************************/
@@ -189,8 +216,9 @@ hr {
   padding: 1.2rem;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(163, 140, 140, 0)),
-    url(img/hero.webp);
+    url(/img/hero.webp);
   background-size: cover;
+  background-position: top;
 
   outline: 0.3rem solid #f37566;
   outline-offset: -15px;
@@ -200,19 +228,6 @@ hr {
   align-items: center;
   justify-content: center;
   margin-bottom: 6.4rem;
-}
-
-.btn {
-  font-size: 2.4rem;
-  font-weight: 200;
-  text-transform: uppercase;
-  padding: 0 5rem;
-  border-radius: 999px;
-  color: #fff;
-  cursor: pointer;
-  border: none;
-  background-color: #f37566;
-  box-shadow: 0 2px 1rem rgba(0, 0, 0, 0.3);
 }
 
 .hero-text-box {
@@ -274,6 +289,7 @@ hr {
   align-items: center;
   justify-content: center; */
   gap: 2.4rem;
+  background-size: cover;
 }
 
 .services-imgs p {
@@ -294,15 +310,15 @@ hr {
 
 .services-img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(img/services-1.webp);
+    url(/img/services-1.webp);
 }
 .services-img-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(img/services-2.webp);
+    url(/img/services-2.webp);
 }
 .services-img-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(img/services-3.webp);
+    url(/img/services-3.webp);
 }
 
 .services-img {
@@ -371,6 +387,11 @@ hr {
   line-height: 1.6;
 }
 
+.client-box img:hover {
+  transform: scale(2);
+  transition: 0.3s;
+}
+
 .review {
   color: #666;
   line-height: 1.6;
@@ -400,6 +421,8 @@ hr {
 }
 
 .btn--about {
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
 }
 
 /**************************/
@@ -407,7 +430,7 @@ hr {
 /**************************/
 
 .footer hr {
-  width: 100%;
+  width: 120rem;
   margin-bottom: 4.8rem;
 }
 
@@ -499,7 +522,18 @@ hr {
   margin-top: 50%;
 }
 
-.footer-social-nav {
+.footer-social-img:link,
+.footer-social-img:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+.footer-container {
+  margin-bottom: 2.4rem;
+}
+
+.copyright {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

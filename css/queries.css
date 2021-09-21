@@ -1,0 +1,65 @@
+/**************************/
+/* Media Queries  */
+/**************************/
+
+/* Rem does not respond to the defined html font size we set when using media queries
+
+instead it is 1rem = 1em = 16px
+
+rather use em in media queries
+*/
+
+/**************************/
+/* Below 1200px  */
+/* smaller computers */
+/**************************/
+/* 1200px / 16px = 75 em  */
+
+@media (max-width: 75em) {
+  .hero {
+    max-width: 80rem;
+  }
+  .header {
+    max-width: 80rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid--3-cols:last-child {
+    grid-column: span 2;
+  }
+}
+
+/* /////////////////////////////////////// */
+
+/**************************/
+/* Below 1100px  */
+/* landscape tablets*/
+/**************************/
+/* 1100px / 16px = 63 em  */
+
+@media (max-width: 68em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .header {
+    max-width: 30rem;
+    padding: 1.2rem;
+  }
+
+  .grid {
+    gap: 4.8rem;
+  }
+}
+
+/* - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
