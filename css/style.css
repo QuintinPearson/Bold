@@ -52,6 +52,8 @@ html {
   /* font-size: 10px; */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -218,7 +220,7 @@ hr {
   color: #333;
 }
 
-.icon-mobile-nav[name="close"] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
